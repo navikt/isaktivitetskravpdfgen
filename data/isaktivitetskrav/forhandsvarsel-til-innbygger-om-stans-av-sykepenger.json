@@ -25,15 +25,10 @@
   },
   {
     "type": "PARAGRAPH",
-    "texts": ["· Kommer du helt eller delvis tilbake i arbeid, oppfyller du aktivitetsplikten og kan fortsatt få sykepenger."]
-  },
-  {
-    "type": "PARAGRAPH",
-    "texts": ["· Gir arbeidsgiveren din en skriftlig begrunnelse for at det ikke er mulig å legge til rette for at du kan jobbe, kan utbetalingen av sykepenger fortsette."]
-  },
-  {
-    "type": "PARAGRAPH",
-    "texts": ["· Går det fram av sykmeldingen at du er for syk til å arbeide, får du fortsatt sykepenger."]
+    "texts": [
+      "- Kommer du helt eller delvis tilbake i arbeid, oppfyller du aktivitetsplikten og kan fortsatt få sykepenger.",
+      "- Gir arbeidsgiveren din en skriftlig begrunnelse for at det ikke er mulig å legge til rette for at du kan jobbe, kan utbetalingen av sykepenger fortsette.",
+      "- Går det fram av sykmeldingen at du er for syk til å arbeide, får du fortsatt sykepenger."]
   },
   {
     "type": "PARAGRAPH",
