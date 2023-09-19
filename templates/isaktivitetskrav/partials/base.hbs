@@ -58,14 +58,14 @@
         }
 
         .header {
-            margin-bottom: 30px;
+            display: table;
             width: 100%;
+            margin-bottom: 50px;
         }
 
         .mottaker-info-container {
-            display: inline-block;
-            width: 45%;
-            align-items: center;
+            display: table-cell;
+            vertical-align: baseline;
         }
 
         .mottaker {
@@ -76,17 +76,15 @@
         }
 
         .logo-container {
-            display: inline-block;
-            margin-left: 270px;
-            width: 100px;
+            display: table-cell;
+            vertical-align: baseline;
+            text-align: right;
         }
 
         .navlogo {
             width: 48px;
         }
 
-        .dato-sendt {
-        }
     </style>
 
     <title>{{ doctitle }}</title>
@@ -95,16 +93,14 @@
 <body>
     <div class="header">
         <div class="mottaker-info-container">
-            <p class="mottaker">Til: {{ mottaker }}</p>
-            <p class="fodselsnummer">Fødselsnummer: {{fodselsnummer}}</p>
+            <p class="mottaker">Til: {{ mottakerNavn }}</p>
+            <p class="fodselsnummer">Fødselsnummer: {{ mottakerFodselsnummer }}</p>
         </div>
         <div class="logo-container">
             <img class="navlogo" alt="Nav-logo" src="{{ image "Navlogo.png" }}"/>
-            <p class="dato-sendt">15. februar 2021</p>
+            <p>{{ datoSendt }}</p>
         </div>
     </div>
-
-    <h1 class="title">{{> title}}</h1>
 
     {{#each documentComponents }}
         {{#eq type 'HEADER_H1' }}
