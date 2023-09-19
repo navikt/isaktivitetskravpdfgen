@@ -1,9 +1,12 @@
 {
-  "title": "Varsel om stans av sykepenger",
   "mottaker": "Artig Trane",
   "fodselsnummer": "12345678945",
   "datoSendt": "19. september 2023",
   "documentComponents": [
+    {
+      "type": "HEADER_H1",
+      "texts": ["Varsel om stans av sykepenger"]
+    },
     {
       "type": "PARAGRAPH",
       "texts": ["Du har nå vært sykmeldt i mer enn åtte uker. Da har du plikt til å være i aktivitet. Ut fra opplysningene NAV har i saken har vi vurdert at du ikke oppfyller vilkårene for å unntas aktivitetsplikten. Vi vurderer å stanse sykepengene dine fra og med [sett inn dato 3 uker frem i tid]."]
@@ -29,7 +32,7 @@
     },
     {
       "type": "PARAGRAPH",
-      "texts": ["Vi må ha tilbakemelding fra deg, arbeidsgiveren din eller den som har sykmeldt deg innen [sett inn dato 3 uker frem i tid]. Ellers vil sykepengene dine stanses fra denne datoen.", "Kontakt oss gjerne på nav.no/skriv-til-oss eller telefon 55 55 33 33."]
+      "texts": ["Vi må ha tilbakemelding fra deg, arbeidsgiveren din eller den som har sykmeldt deg innen 10. oktober 2023 {dato 3 uker frem i tid}. Ellers vil sykepengene dine stanses fra denne datoen.", "Kontakt oss gjerne på nav.no/skriv-til-oss eller telefon 55 55 33 33."]
     },
     {
       "type": "HEADER_H3",
