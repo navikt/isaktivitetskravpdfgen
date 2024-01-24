@@ -28,8 +28,6 @@ spec:
   prometheus:
     enabled: true
     path: /prometheus
-  istio:
-    enabled: false
   resources:
     limits:
       cpu: 800m
