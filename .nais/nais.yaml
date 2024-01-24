@@ -28,15 +28,12 @@ spec:
   prometheus:
     enabled: true
     path: /prometheus
-  istio:
-    enabled: false
   resources:
     limits:
-      cpu: 800m
       memory: 1024Mi
     requests:
-      cpu: 500m
-      memory: 512Mi
+      cpu: 100m
+      memory: 256Mi
   accessPolicy:
     inbound:
       rules:
